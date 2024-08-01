@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    border: 1px solid #6eb359;
+    border-radius: 5px;
+    background-color: #624a4a;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ac1010;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #117627;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #54545c;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #727878;
+}
+
+td button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+td button.edit {
+    background-color: #007bff;
+    color: white;
+}
+
+td button.delete {
+    background-color: #df0f24;
+    color: rgb(205, 189, 189);
+}
+
+td button.reset {
+    background-color: #526170;
+    color: white;
+}
+
+td button.edit:hover {
+    background-color: #0056b3;
+}
+
+td button.delete:hover {
+    background-color: #c82333;
+}
+
+td button.reset:hover {
+    background-color: #d6dbda37;
+}
+
+.Reset-table {
+    background-color: #5c786c;
+}
+
+.Reset-table:hover{
+    background-color: #624a4a;
+    cursor: pointer;
+}
